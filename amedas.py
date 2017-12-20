@@ -8,7 +8,7 @@ from time import sleep
 from lxml import html
 import pandas as pd
 
-item={'気温':'temp','降水量':'rain','湿度':'humd','気圧':'pres','風速':'wind','日照時間':'sun','積深雪':'snow'}
+item={'気温':'temp','降水量':'rain','湿度':'humd','気圧':'pres','風速':'wind','日照時間':'sun','積雪深':'snow'}
 
 listdf=pd.read_csv('crawl.txt',comment='#')
 
